@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="param-form">
+        <h2>New Input</h2>
+        <label for="input-type">Type</label>
+        <select id="input-type" name="input-type">
+            <option value="text">Text</option>
+            <option value="select">Select</option> 
+        </select>
+
+        <label for="input-name">Name</label>
+        <input id ="input-name" type="text">
+        
+        <label for="new-option">Option</label>
+        <input id ="new-option" type="text" disabled>
+        <input type="button" id="add-option" value="Add option" disabled>
+
+        <input id="add" type="button" value="Add">
+
+        <label for="remove">Remove</label>
+        <input id="remove" name="remove" type="checkbox" value="remove">
+    </form>
+        <ul id="all-options">
+
+        </ul>
+    <form id="custom-form">
+        <h2>Custom form</h2>
+        <input type="button" id="print" value="Print">
+        <div id="custom-inputs">
+
+        </div>
+    </form>
+
+    <table id="table">
+
+    </table>
+</body>
+
+<script type="text/javascript" src="./index.js"></script>
+</html>
