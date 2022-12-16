@@ -7,7 +7,7 @@ exports.addNewMessage = exports.getAllMessages = void 0;
 const mysql_1 = __importDefault(require("mysql"));
 var db_connection = mysql_1.default.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'website-node',
     password: 'mypass',
     database: 'site'
 });
